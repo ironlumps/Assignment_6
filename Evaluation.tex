@@ -1,0 +1,17 @@
+Ryan Kassab
+2296707
+rkassab@chapman.edu
+CPSC350-01
+Assignment #6
+
+Evaulation:
+
+	In terms of the time differences between the sorting algorithms, I was unable to get the algorithms to fucntion properly running into contant segmentation faults. When I looked up how to fix 		the problem, I only ran into more problems and my segmentation fault was still there. However, I am aware of the speed differences between the functions being drastically different 			depending on how many numbers they are run on, with bubble sort being the slowest and quick sort and merge sort being pretty close as the fastest. Whether or not I was suprisd at the 		results, I guess we won't know because my program ran into segmentation faults.
+
+	In temrs of tradeoffs for picking one algorithm over the other, it seems to be speed versus computing power necessary and simplicity of implementation. With choosing between the simple 		sorting algorithms, a few factors need to be taken into account. If the data is partially sorted, then insertion sort is the better choice as it has a faster runtime. If you're looking for just 			simplicity with the code, then bubble sort is the way to go as it is the easiest to implement; however, it can take a while to run since it runs in O(n^2). When choosing between the more 			complicated algorithms, it is a simple choice between memory and computing power. If you are low in resources in terms of memory, then quck sort is the algorithm that works best, but if you 		are low in resources in terms of computing power, then merge sort is the better option. And since they both run at similar speeds, whichever you choose won't make a massive impact on the 		quickness of the program.
+
+	We had to use C++ and I didn't use any other language to run this program, so I am unsure of the differences between languages, but the shortcomings of the empirical analysis are evident. 	Since we had to create several different methods and run them against each other, there are a lot of obstacles that can be hit. One of the biggest ones is the code not running at all, as in my 		case, so we can't even compare the run times at all. Hitting this obstacle makes the entire process useless. Also the empirical solution requires a lot more time and energy thana mathematical 		one.
+
+Conclusion:
+
+	I was unable to test the methods, but using the knowledge I learned, running it on 10,000 double digits: the quick sort and merge sort methods should have taken about 40 seconds each, the 	bubble sort method should have taken somewhere in the ballpark of 100,000 seconds and the insertion sort (because the data was not partially sorted) should have also taken around that 		amount of time. That being said, I did do those calculations using mathematical analysis, so the numbers are probably off, but the point remains that quicksort and merge sort are both 			exponentially times faster than bubble sort or insertion sort (when the data isn't partailly sorted).	 
